@@ -6,16 +6,19 @@ This is a Moodle Local Plugin that allows integration with Google calendar
 ## How to generate and download the .json credentials
 
 1. Create a google cloud project:
+
     [Create a Google Cloud project  |  Google Workspace  |  Google Developers](https://developers.google.com/workspace/guides/create-project)
 
 2. Enable Google calendar API:
+
     [Enable Google Workspace APIs  |  Google Developers](https://developers.google.com/workspace/guides/enable-apis)
 
     Find and select google calendar, then click Enable:
 
     ![Enable](pix/img1.png)
 
-3. Configure OAuth consent screen
+3. Configure OAuth consent screen:
+
     [Configure the OAuth consent screen  |  Google Workspace  |  Google Developers](https://developers.google.com/workspace/guides/configure-oauth-consent)
 
     Select External user type.
@@ -26,7 +29,8 @@ This is a Moodle Local Plugin that allows integration with Google calendar
     Save and Continue.
     Under Test users add the user myuser@mysite.com
 
-4. Create access credentials
+4. Create access credentials:
+
     [Create access credentials  |  Google Workspace  |  Google Developers](https://developers.google.com/workspace/guides/create-credentials)
 
     Among the three types of existing credentials you must choose OAuth client ID, and then follow the instructions for OAuth client ID credentials only:
